@@ -1,0 +1,482 @@
+.discover-how-our,
+.how-it-works2 {
+  align-self: stretch;
+  position: relative;
+}
+.center-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.discover-how-our {
+  font-size: 23.4px;
+  line-height: 32px;
+  font-weight: 500;
+}
+.howitworks {
+  width: 759.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 11.7px;
+  max-width: 100%;
+}
+.b,
+.sign-up-for,
+.user-registration {
+  position: relative;
+  line-height: 161.33px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.b {
+  height: 329.7px;
+  width: 118.8px;
+  justify-content: center;
+  -webkit-text-stroke: 3.9px #1b1b1b;
+}
+.sign-up-for,
+.user-registration {
+  align-self: stretch;
+  height: 57px;
+  font-weight: 600;
+}
+.sign-up-for {
+  height: 117.2px;
+  font-size: 23.4px;
+  line-height: 27.35px;
+  font-weight: 500;
+}
+.user-reg {
+  width: 503.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 7.8px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 31.3px;
+  color: #1b1b1b;
+}
+.capture-edit-and,
+.div
+{
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.skill-capture {
+  /* align-self: stretch; */
+  display: flex;
+  align-items: center;
+}
+
+.div {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 0 0 402px;
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: 20px;
+}
+.capture-edit-and,
+.skill-capture {
+  height: 57px;
+  position: relative;
+  line-height: 161.33px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.capture-edit-and {
+  height: 93.8px;
+  font-size: 23.4px;
+  line-height: 27.35px;
+  font-weight: 500;
+}
+.skill-cap {
+  width: 503.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 20px 0;
+  box-sizing: border-box;
+  min-width: 503.2px;
+  max-width: 100%;
+}
+.b1,
+.div1 {
+  display: flex;
+  align-items: center;
+}
+.b1 {
+  height: 329.7px;
+  width: 194.5px;
+  position: relative;
+  font-size: 390.7px;
+  line-height: 161.33px;
+  text-align: center;
+  justify-content: center;
+  flex-shrink: 0;
+  min-width: 194.5px;
+}
+.div1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 309px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: 20px;
+  text-align: right;
+  font-size: 31.3px;
+  color: #1b1b1b;
+}
+.b2 {
+  height: 329.7px;
+  width: 194.5px;
+  line-height: 161.33px;
+  justify-content: center;
+  -webkit-text-stroke: 3.9px #1b1b1b;
+  min-width: 194.5px;
+}
+.b2,
+.dashboard-reporting,
+.dive-into-personalized {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.dashboard-reporting {
+  width: 388.3px;
+  height: 57px;
+  line-height: 161.33px;
+  font-weight: 600;
+  max-width: 100%;
+}
+.dive-into-personalized {
+  align-self: stretch;
+  height: 117.2px;
+  font-size: 23.4px;
+  line-height: 27.35px;
+  font-weight: 500;
+}
+.dashboard-rep,
+.div2 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.dashboard-rep {
+  width: 475.8px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px 0;
+  gap: 7.8px;
+  min-width: 475.8px;
+  text-align: left;
+  font-size: 31.3px;
+  color: #1b1b1b;
+}
+.div2 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 27px 0 309px;
+  gap: 20px;
+}
+.stay-updated-with {
+  align-self: stretch;
+  height: 57px;
+  position: relative;
+  line-height: 161.33px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.notifications-communication{
+  /* align-self: stretch; */
+  height: 57px;
+  position: relative;
+  line-height: 161.33px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.stay-updated-with {
+  height: 93.8px;
+  font-size: 23.4px;
+  line-height: 27.35px;
+  font-weight: 500;
+}
+.b3,
+.notification {
+  display: flex;
+  justify-content: center;
+}
+.notification {
+  width: 503.2px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px 0;
+  box-sizing: border-box;
+  gap: 11.7px;
+  min-width: 503.2px;
+  max-width: 100%;
+}
+.b3 {
+  height: 329.7px;
+  width: 194.5px;
+  position: relative;
+  font-size: 390.7px;
+  line-height: 161.33px;
+  text-align: center;
+  align-items: center;
+  flex-shrink: 0;
+  min-width: 194.5px;
+}
+.div3,
+.parent {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.div3 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 308px 0 0;
+  box-sizing: border-box;
+  gap: 20px;
+  text-align: right;
+  font-size: 31.3px;
+  color: #1b1b1b;
+}
+.parent {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 100px;
+  font-size: 390.7px;
+  color: transparent;
+}
+.howitworks-parent,
+.landing-inner1 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.howitworks-parent {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 0.1px;
+  gap: 120px;
+  flex-shrink: 0;
+  /* z-index: 1; */
+}
+.landing-inner1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 52px 30.4px 53px;
+  text-align: center;
+  font-size: 46.9px;
+  color: #1b1b1b;
+  font-family: Urbanist;
+}
+@media screen and (max-width: 1200px) {
+  .div {
+    flex-wrap: wrap;
+    padding-left: 201px;
+    box-sizing: border-box;
+  }
+  .b1,
+  .skill-cap {
+    flex: 1;
+  }
+  .div1 {
+    flex-wrap: wrap;
+    padding-right: 154px;
+    box-sizing: border-box;
+  }
+  .b2,
+  .dashboard-rep {
+    flex: 1;
+  }
+  .div2 {
+    flex-wrap: wrap;
+    padding-left: 154px;
+    box-sizing: border-box;
+  }
+  .b3,
+  .notification {
+    flex: 1;
+  }
+  .div3 {
+    flex-wrap: wrap;
+    padding-right: 154px;
+    box-sizing: border-box;
+  }
+  .landing-inner1 {
+    padding-left: 26px;
+    padding-right: 26px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .dashboard-rep,
+  .notification,
+  .skill-cap {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .how-it-works2 {
+    font-size: 38px;
+  }
+  .b {
+    font-size: 156px;
+    line-height: 97px;
+  }
+  .user-registration {
+    font-size: 25px;
+    line-height: 129px;
+  }
+  .div {
+    padding-left: 100px;
+    box-sizing: border-box;
+  }
+  .skill-capture {
+    font-size: 25px;
+    line-height: 129px;
+  }
+  .b1 {
+    font-size: 156px;
+    line-height: 97px;
+  }
+  .div1 {
+    padding-right: 77px;
+    box-sizing: border-box;
+  }
+  .b2 {
+    font-size: 156px;
+    line-height: 97px;
+  }
+  .dashboard-reporting {
+    font-size: 25px;
+    line-height: 129px;
+  }
+  .div2 {
+    padding-left: 77px;
+    box-sizing: border-box;
+  }
+  .notifications-communication {
+    font-size: 25px;
+    line-height: 129px;
+  }
+  .b3 {
+    font-size: 156px;
+    line-height: 97px;
+  }
+  .div3 {
+    padding-right: 77px;
+    box-sizing: border-box;
+  }
+  .parent {
+    gap: 50px;
+  }
+  .howitworks-parent {
+    gap: 60px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .how-it-works2 {
+    font-size: 28px;
+  }
+  .discover-how-our {
+    font-size: 19px;
+    line-height: 25px;
+  }
+  .b {
+    font-size: 98px;
+    line-height: 65px;
+  }
+  .sign-up-for,
+  .user-registration {
+    font-size: 19px;
+    line-height: 97px;
+  }
+  .sign-up-for {
+    line-height: 22px;
+  }
+  .div {
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+  .skill-capture {
+    font-size: 19px;
+    line-height: 97px;
+  }
+  .capture-edit-and {
+    font-size: 19px;
+    line-height: 22px;
+  }
+  .b1 {
+    font-size: 98px;
+    line-height: 65px;
+  }
+  .div1 {
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .b2 {
+    font-size: 98px;
+    line-height: 65px;
+  }
+  .dashboard-reporting {
+    font-size: 19px;
+    line-height: 97px;
+  }
+  .dive-into-personalized {
+    font-size: 19px;
+    line-height: 22px;
+  }
+  .div2 {
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+  .notifications-communication {
+    font-size: 19px;
+    line-height: 97px;
+  }
+  .stay-updated-with {
+    font-size: 19px;
+    line-height: 22px;
+  }
+  .b3 {
+    font-size: 98px;
+    line-height: 65px;
+  }
+  .div3 {
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .parent {
+    gap: 25px;
+  }
+  .howitworks-parent {
+    gap: 30px;
+  }
+}

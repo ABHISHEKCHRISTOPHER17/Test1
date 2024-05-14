@@ -1,0 +1,437 @@
+.complete-your-profile,
+.welcome-take-a {
+  margin: 0;
+  position: relative;
+  font-family: inherit;
+}
+.input-field {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 15px;
+  font-weight: 500;
+  color: #1b1b1b;
+  width: 100%;
+  /* Add default bottom border */
+}
+.input-field.error::placeholder {
+  color: red;
+}
+.error-text {
+  color: red; /* Change error text color to red */
+}
+/* Add or modify styles as needed */
+
+
+/* Rest of the existing styles remain unchanged */
+
+.complete-your-profile {
+  width: 268px;
+  font-size: inherit;
+  font-weight: 700;
+  display: inline-block;
+}
+.welcome-take-a {
+  align-self: stretch;
+  font-size: 21px;
+  font-weight: 500;
+  color: #494949;
+}
+.complete-your-profile-parent,
+.form-fields {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.complete-your-profile-parent {
+  align-self: stretch;
+  gap: 15px;
+}
+.form-fields {
+  width: 428.7px;
+  padding: 107.5px 24.7px 0 0;
+  max-width: 100%;
+}
+.divider,
+.form-fields,
+.separator {
+  box-sizing: border-box;
+}
+.separator {
+  width: 0.7px;
+  flex: 1;
+  position: relative;
+  border-right: 0.7px solid #a0aece;
+}
+.divider {
+  height: 296.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 128.5px 0 0;
+}
+.enter-level {
+  flex: 1;
+  position: relative;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Urbanist;
+  color: #1b1b1b;
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.data-labels {
+  align-self: stretch;
+  border-bottom: 1.5px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 12px 14px;
+  max-width: 100%;
+}
+.data-labels.error{
+    color: red;
+    border-bottom: 1.5px solid rgb(241, 8, 8); /* Change border to red */
+  
+}
+/* .entry-fields,
+.input-fields {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+} */
+.entry-fields {
+  flex: 1;
+  flex-direction: column;
+}
+.input-fields {
+  align-self: stretch;
+  flex-direction: row;
+}
+.account,
+.enter {
+  font-family: Urbanist;
+}
+.account {
+  font-weight: 500;
+}
+.enter-account {
+  flex: 1;
+  position: relative;
+  font-size: 15px;
+  color: #1b1b1b;
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.enter-account-wrapper {
+  align-self: stretch;
+  border-bottom: 1.5px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 12px 14px;
+  max-width: 100%;
+}
+.input-fields-inner,
+.input-fields1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.input-fields-inner {
+  flex: 1;
+  flex-direction: column;
+}
+.input-fields1 {
+  align-self: stretch;
+  flex-direction: row;
+}
+.business-unit,
+.enter1 {
+  font-family: Urbanist;
+}
+.business-unit {
+  font-weight: 500;
+}
+.enter-business-unit-container {
+  flex: 1;
+  position: relative;
+  font-size: 15px;
+  color: #1b1b1b;
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.enter-business-unit-wrapper {
+  align-self: stretch;
+  border-bottom: 1.5px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 12px 14px;
+  max-width: 100%;
+}
+.input-fields-child,
+.input-fields2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.input-fields-child {
+  flex: 1;
+  flex-direction: column;
+}
+.input-fields2 {
+  align-self: stretch;
+  flex-direction: row;
+}
+.base-branch,
+.enter2 {
+  font-family: Urbanist;
+}
+.base-branch {
+  font-weight: 500;
+}
+.enter-base-branch-container {
+  flex: 1;
+  position: relative;
+  font-size: 15px;
+  color: #1b1b1b;
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.enter-base-branch-wrapper {
+  align-self: stretch;
+  border-bottom: 1.5px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 12px 14px;
+  max-width: 100%;
+}
+.frame-div,
+.input-fields3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-div {
+  flex: 1;
+  flex-direction: column;
+}
+.input-fields3 {
+  align-self: stretch;
+  flex-direction: row;
+}
+.domain,
+.enter3 {
+  font-family: Urbanist;
+}
+.domain {
+  font-weight: 500;
+}
+.enter-domain {
+  flex: 1;
+  position: relative;
+  font-size: 15px;
+  color: #1b1b1b;
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.enter-domain-wrapper {
+  align-self: stretch;
+  border-bottom: 1.5px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 12px 14px;
+  max-width: 100%;
+}
+.input-fields-inner1,
+.input-fields4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.input-fields-inner1 {
+  flex: 1;
+  flex-direction: column;
+}
+.input-fields4 {
+  align-self: stretch;
+  flex-direction: row;
+}
+.area,
+.enter4 {
+  font-family: Urbanist;
+}
+.area {
+  font-weight: 500;
+}
+.enter-area {
+  flex: 1;
+  position: relative;
+  font-size: 15px;
+  color: #1b1b1b;
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.enter-area-wrapper {
+  align-self: stretch;
+  border-bottom: 1.5px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 12px 14px;
+  max-width: 100%;
+}
+.input-fields-inner2,
+.input-fields5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.input-fields-inner2 {
+  flex: 1;
+  flex-direction: column;
+}
+.input-fields5 {
+  align-self: stretch;
+  flex-direction: row;
+}
+.input-labels {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  max-width: 100%;
+}
+.inputs
+/* .inside */
+ {
+  align-self: stretch;
+}
+.inputs {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 2.5px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+/* .inside {
+  flex: 1;
+} */
+.inside1ofProfile {
+  height: 43.1px;
+  flex: 0.6107;
+}
+.button-area {
+  width: 279.9px;
+  height: 43.1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7.1px;
+}
+.inputs-parent,
+.profile-form {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.inputs-parent {
+  margin: 0;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 27.4px;
+  min-width: 381px;
+}
+.profile-form {
+  box-shadow: -10.9px -10.9px 21.88px #e8f1ff, 10.9px 10.9px 21.88px #afcdff;
+  border-radius: 21.88px;
+  background: linear-gradient(100.07deg, #cfe2ff, #e9e9ff 50.87%, #d4e4ff);
+  overflow: hidden;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 57.5px 81.5px 30px 84px;
+  box-sizing: border-box;
+  gap: 39.3px;
+  z-index: 1;
+  text-align: left;
+  font-size: 50px;
+  color: #000;
+  font-family: Urbanist;
+}
+@media screen and (max-width: 1200px) {
+  .profile-form {
+    padding-left: 42px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .complete-your-profile {
+    font-size: 40px;
+  }
+  .inputs-parent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .input-fields,
+  .input-fields1,
+  .input-fields2,
+  .input-fields3,
+  .input-fields4,
+  .input-fields5 {
+    gap: 15px;
+  }
+  .profile-form {
+    gap: 20px;
+    padding-left: 21px;
+    padding-top: 37px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .complete-your-profile {
+    font-size: 30px;
+  }
+  .welcome-take-a {
+    font-size: 17px;
+  }
+}

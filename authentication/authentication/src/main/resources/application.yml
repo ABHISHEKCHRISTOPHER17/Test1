@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: authentication-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/lol
+    username: root
+    password: 1858-Forever
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        show-sql: true
+  mail:
+    host: smtp.gmail.com
+    username: mnsandeep3333@gmail.com
+    password: fkvq himh haik jfgg
+    port: 587
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+          auth: true
+  frontend_url: 172.18.4.236:3000
+
+eureka:
+    client:
+      service-url:
+        defaultZone: http://localhost:8761/eureka

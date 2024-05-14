@@ -1,0 +1,69 @@
+.welcome-to {
+  position: relative;
+}
+.field-labels {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.skillmatrix-3-icon {
+  align-self: stretch;
+  height: 38.7px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.form-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0;
+  gap: 14.6px;
+}
+.register-your-account {
+  position: relative;
+  font-size: 25.5px;
+  font-weight: 600;
+  color: #000;
+}
+.input-grid {
+  align-self: stretch;
+  justify-content: center;
+  gap: 14.6px;
+}
+.input-arrangement,
+.input-grid,
+.input-structure {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.input-arrangement {
+  align-self: stretch;
+  justify-content: center;
+}
+.input-structure {
+  width: 266.2px;
+  justify-content: flex-start;
+  padding: 70.5px 0 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 32.8px;
+  color: #1e1e1e;
+  font-family: Urbanist;
+}
+@media screen and (max-width: 975px) {
+  .welcome-to {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .register-your-account,
+  .welcome-to {
+    font-size: 20px;
+  }
+}

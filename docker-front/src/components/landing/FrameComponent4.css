@@ -1,0 +1,180 @@
+.empower-your-growth,
+.personalized-skill-tracking {
+  align-self: stretch;
+  position: relative;
+  font-weight: 800;
+}
+.personalized-skill-tracking {
+  font-size: 32.9px;
+  font-weight: 600;
+}
+.empower-your-growth-with-skill-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16.4px;
+}
+.welcome-to-skillmatrix {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.main-content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  font-size: 20.5px;
+}
+.button4 {
+  position: relative;
+  font-size: 18.1px;
+  font-weight: 600;
+  font-family: Urbanist;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 49px;
+}
+.arrow-down-icon2 {
+  height: 19.7px;
+  width: 19.7px;
+  position: relative;
+  display: none;
+}
+.inside2ofLanding {
+  cursor: pointer;
+  border: 0;
+  padding: 13.7px 53.5px 13.6px 53.6px;
+  background-color: transparent;
+  border-radius: 24.65px;
+  background: linear-gradient(90deg, #1456ff, #5013ff);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8.2px;
+  white-space: nowrap;
+  transition: transform 0.3s ease;
+}
+.inside2ofLanding:hover {
+  transform: scale(1.08); /* Enlarge button on hover */
+}
+.button5 {
+  position: relative;
+  font-size: 18.1px;
+  font-weight: 600;
+  font-family: Urbanist;
+  color: #1b1b1b;
+  text-align: left;
+  display: inline-block;
+  min-width: 66px;
+}
+.arrow-down-icon3 {
+  height: 19.7px;
+  width: 19.7px;
+  position: relative;
+  display: none;
+}
+.inside3,
+.main-cta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.inside3 {
+  cursor: pointer;
+  border: 2.5px solid #1456ff;
+  padding: 11px 43px;
+  background-color: transparent;
+  flex: 1;
+  border-radius: 24.65px;
+  box-sizing: border-box;
+  gap: 8.2px;
+  min-width: 101px;
+  transition: transform 0.3s ease;
+}
+.inside3:hover {
+  background-color: rgba(59, 125, 255, 0.09);
+  border: 2.5px solid #3b7dff;
+  box-sizing: border-box;
+  transform: scale(1.08);
+}
+.main-cta {
+  align-self: stretch;
+  flex-wrap: wrap;
+  padding: 0 350.1px 0 350px;
+  gap: 24.7px;
+}
+.hero,
+.hero-wrapper {
+  display: flex;
+  max-width: 100%;
+}
+.hero {
+  width: 1037px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 45.2px;
+  z-index: 1;
+}
+.hero-wrapper {
+  margin-top: 75px;
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 57.5px;
+  color: #1b1b1b;
+  font-family: Urbanist;
+}
+@media screen and (max-width: 1050px) {
+  .main-cta {
+    padding-left: 175px;
+    padding-right: 175px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .empower-your-growth {
+    font-size: 46px;
+  }
+  .personalized-skill-tracking {
+    font-size: 26px;
+  }
+  .main-cta {
+    padding-left: 87px;
+    padding-right: 87px;
+    box-sizing: border-box;
+  }
+  .hero {
+    gap: 23px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .empower-your-growth {
+    font-size: 34px;
+  }
+  .personalized-skill-tracking {
+    font-size: 20px;
+  }
+  .welcome-to-skillmatrix {
+    font-size: 16px;
+  }
+  .main-cta {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

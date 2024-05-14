@@ -1,0 +1,249 @@
+.welcome-to {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.skillmatrix-1-icon {
+  align-self: stretch;
+  height: 38.7px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.log-in-to {
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+}
+.frame-wrapper,
+.welcome-to-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.welcome-to-parent {
+  align-self: stretch;
+  gap: 16.2px;
+}
+.frame-wrapper {
+  width: 266.2px;
+  padding: 40.1px 0 0;
+  box-sizing: border-box;
+}
+.frame-child {
+  width: 0.7px;
+  flex: 1;
+  position: relative;
+  border-right: 0.7px solid #a0aece;
+  box-sizing: border-box;
+}
+.line-wrapper {
+  height: 191.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 23.3px 0 0;
+  box-sizing: border-box;
+}
+.enter-your-employee {
+  position: relative;
+  font-weight: 600;
+}
+.text {
+  flex-direction: row;
+  align-items: center;
+  padding: 0 7px 0 7.3px;
+}
+.input,
+.text,
+.text-parent {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: rgba(255, 255, 255, 0.75);
+  height: 54px;
+  border-radius: 25.53px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 21.9px;
+  box-sizing: border-box;
+  font-family: Urbanist;
+  font-size: 18.2px;
+  color: #707070;
+  min-width: 250px;
+}
+.text-parent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14.6px;
+}
+.button {
+  flex: 1;
+  position: relative;
+  font-size: 18.2px;
+  font-weight: 600;
+  font-family: Urbanist;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+}
+.log-in-button {
+  align-self: stretch;
+  border-radius: 25.53px;
+  background: linear-gradient(90deg, #5013ff, #1456ff);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 7.3px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.enter-your-employee-i-d,
+.nextbuttin {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  max-width: 100%;
+}
+.nextbuttin {
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+  flex-shrink: 0;
+}
+.enter-your-employee-i-d {
+  box-sizing: border-box;
+  gap: 21.9px;
+}
+.are-you-a-new-user {
+  white-space: pre-wrap;
+}
+.register1 {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.are-you-a-container {
+  flex: 1;
+  position: relative;
+}
+.register {
+  width: 232.7px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 7.3px;
+  box-sizing: border-box;
+  
+}
+.forgot-password {
+  flex: 1;
+  position: relative;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.bottomtext,
+.forgot {
+  display: flex;
+  flex-direction: row;
+}
+.forgot {
+  width: 213.7px;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 7.3px;
+  box-sizing: border-box;
+  text-align: right;
+}
+.bottomtext {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0;
+  row-gap: 20px;
+  font-size: 16px;
+}
+.dynamicsection,
+.frame-parentofLogin {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.dynamicsection {
+  width: 447.1px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 14.6px;
+  text-align: center;
+  font-size: 18.2px;
+  color: #000;
+}
+.frame-parentofLogin {
+  box-shadow: -10.9px -10.9px 30px #f0f2ff, 10.9px 10.9px 30px #afcdff;
+  border-radius: 21.88px;
+  background: linear-gradient(100.07deg, #e2e7ff, #d4e4ff);
+  overflow: hidden;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 109.7px 78px 109.7px 78.1px;
+  box-sizing: border-box;
+  gap: 79.9px;
+  z-index: 1;
+  text-align: left;
+  font-size: 30px;
+  color: #1e1e1e;
+  font-family: Urbanist;
+}
+@media screen and (max-width: 1025px) {
+  .frame-parentofLogin {
+    gap: 40px;
+    padding-left: 39px;
+    padding-right: 39px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 975px) {
+  .welcome-to {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 725px) {
+  .bottomtext {
+    flex-wrap: wrap;
+  }
+  .frame-parentofLogin {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .welcome-to {
+    font-size: 18px;
+  }
+  .log-in-to {
+    font-size: 16px;
+  }
+  .frame-parentofLogin {
+    padding-top: 71px;
+    padding-bottom: 71px;
+    box-sizing: border-box;
+  }
+}

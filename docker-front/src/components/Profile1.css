@@ -1,0 +1,425 @@
+.complete-your-profile1,
+.great-job-youre {
+  margin: 0;
+  position: relative;
+  font-family: inherit;
+}
+.input-field {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 15px;
+  font-weight: 500;
+  color: #1b1b1b;
+  width: 100%;
+  /* Add default bottom border */
+}
+.input-field.error::placeholder {
+  color: red; /* Change placeholder color to red for error */
+}
+
+.complete-your-profile1 {
+  width: 268px;
+  font-size: inherit;
+  font-weight: 700;
+  display: inline-block;
+}
+.great-job-youre {
+  align-self: stretch;
+  font-size: 21px;
+  font-weight: 500;
+  color: #494949;
+}
+.complete-your-profile-group,
+.completion-info-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.complete-your-profile-group {
+  align-self: stretch;
+  gap: 15px;
+}
+.completion-info-inner {
+  width: 428.7px;
+  padding: 107.5px 24.7px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.separator-child {
+  width: 0.7px;
+  flex: 1;
+  position: relative;
+  border-right: 0.7px solid #a0aece;
+  box-sizing: border-box;
+}
+.separator1 {
+  height: 296.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 128.5px 0 0;
+  box-sizing: border-box;
+}
+.enter5 {
+  font-weight: 500;
+}
+.directors,
+.enter5 {
+  font-family: Urbanist;
+}
+.enter-directors {
+  flex: 1;
+  position: relative;
+  font-size: 15px;
+  color: #1b1b1b;
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.management-titles {
+  align-self: stretch;
+  border-bottom: 1.5px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 12.4px 14px;
+  max-width: 100%;
+}
+.manager-i-ds-input,
+.manager-names-input {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.manager-i-ds-input {
+  flex: 1;
+  flex-direction: column;
+}
+.manager-names-input {
+  align-self: stretch;
+  flex-direction: row;
+}
+.enter6,
+.reporting-manager {
+  font-family: Urbanist;
+}
+.reporting-manager {
+  font-weight: 500;
+}
+.enter-reporting-manager-container {
+  flex: 1;
+  position: relative;
+  font-size: 15px;
+  color: #1b1b1b;
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.enter-reporting-manager-wrapper {
+  align-self: stretch;
+  border-bottom: 1.5px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 12.4px 14px;
+  max-width: 100%;
+}
+.manager-names-input-inner,
+.manager-names-input1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.manager-names-input-inner {
+  flex: 1;
+  flex-direction: column;
+}
+.manager-names-input1 {
+  align-self: stretch;
+  flex-direction: row;
+}
+.enter7 {
+  font-family: Urbanist;
+}
+.reporting-manager-id {
+  font-weight: 500;
+  font-family: Urbanist;
+}
+.enter-reporting-manager-container1 {
+  flex: 1;
+  position: relative;
+  font-size: 15px;
+  color: #1b1b1b;
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.enter-reporting-manager-id-wrapper {
+  align-self: stretch;
+  border-bottom: 1.5px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 12.4px 14px;
+  max-width: 100%;
+}
+.manager-names-input-child,
+.manager-names-input2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.manager-names-input-child {
+  flex: 1;
+  flex-direction: column;
+}
+.manager-names-input2 {
+  align-self: stretch;
+  flex-direction: row;
+}
+.enter8,
+.sdm {
+  font-family: Urbanist;
+}
+.sdm {
+  font-weight: 500;
+}
+.enter-sdm {
+  flex: 1;
+  position: relative;
+  font-size: 15px;
+  color: #1b1b1b;
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.enter-sdm-wrapper {
+  align-self: stretch;
+  border-bottom: 1.5px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 12.4px 14px;
+  max-width: 100%;
+}
+.manager-names-input-inner1,
+.manager-names-input3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.manager-names-input-inner1 {
+  flex: 1;
+  flex-direction: column;
+}
+.manager-names-input3 {
+  align-self: stretch;
+  flex-direction: row;
+}
+.enter9,
+.sdm-id {
+  font-family: Urbanist;
+}
+.sdm-id {
+  font-weight: 500;
+}
+.enter-sdm-id-container {
+  flex: 1;
+  position: relative;
+  font-size: 15px;
+  color: #1b1b1b;
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.enter-sdm-id-wrapper {
+  align-self: stretch;
+  border-bottom: 1.5px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 12.4px 14px;
+  max-width: 100%;
+}
+.manager-names-input-inner2,
+.manager-names-input4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.manager-names-input-inner2 {
+  flex: 1;
+  flex-direction: column;
+}
+.manager-names-input4 {
+  align-self: stretch;
+  flex-direction: row;
+}
+.domain-manager,
+.enter10 {
+  font-family: Urbanist;
+}
+.domain-manager {
+  font-weight: 500;
+}
+.enter-domain-manager-container {
+  flex: 1;
+  position: relative;
+  font-size: 15px;
+  color: #1b1b1b;
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.enter-domain-manager-wrapper {
+  align-self: stretch;
+  border-bottom: 1.5px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 12.4px 14px;
+  max-width: 100%;
+}
+.manager-names-input-inner3,
+.manager-names-input5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.manager-names-input-inner3 {
+  flex: 1;
+  flex-direction: column;
+}
+.manager-names-input5 {
+  align-self: stretch;
+  flex-direction: row;
+}
+.manager-input-fields {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  max-width: 100%;
+}
+.management-form {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 2.5px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.inside2 {
+  align-self: stretch;
+  flex: 1;
+}
+.inside3ofProfile {
+  height: 43.1px;
+  flex: 0.6391;
+}
+.button-area1 {
+  width: 279.9px;
+  height: 43.1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7.1px;
+}
+.completion-info,
+.management-input {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.management-input {
+  margin: 0;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 27.4px;
+  min-width: 381px;
+}
+.completion-info {
+  box-shadow: -10.9px -10.9px 21.88px #e8f1ff, 10.9px 10.9px 21.88px #afcdff;
+  border-radius: 21.88px;
+  background: linear-gradient(100.07deg, #cfe2ff, #e9e9ff 50.87%, #d4e4ff);
+  overflow: hidden;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 57.5px 81.5px 30px 84px;
+  box-sizing: border-box;
+  gap: 39.3px;
+  z-index: 1;
+  text-align: left;
+  font-size: 50px;
+  color: #000;
+  font-family: Urbanist;
+}
+@media screen and (max-width: 1200px) {
+  .completion-info {
+    padding-left: 42px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .complete-your-profile1 {
+    font-size: 40px;
+  }
+  .management-input {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .manager-names-input,
+  .manager-names-input1,
+  .manager-names-input2,
+  .manager-names-input3,
+  .manager-names-input4,
+  .manager-names-input5 {
+    gap: 15px;
+  }
+  .completion-info {
+    gap: 20px;
+    padding-left: 21px;
+    padding-top: 37px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .complete-your-profile1 {
+    font-size: 30px;
+  }
+  .great-job-youre {
+    font-size: 17px;
+  }
+}

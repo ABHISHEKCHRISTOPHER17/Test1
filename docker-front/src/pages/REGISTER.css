@@ -1,0 +1,98 @@
+.login-1-background-icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.torry-harris-integration-solut-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.logo,
+.skillmatrix-2-icon {
+  flex-shrink: 0;
+}
+.logo {
+  height: 97.9px;
+  width: 229.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 7.9px;
+  box-sizing: border-box;
+}
+.skillmatrix-2-icon {
+  align-self: stretch;
+  height: 26.9px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.skillmatrix-2-wrapper {
+  width: 184.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 35.5px 0 0;
+  box-sizing: border-box;
+}
+.main-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  z-index: 1;
+}
+.input-fields,
+.register-1 {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.input-fields {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 1px 0 0;
+  max-width: 100%;
+}
+.register-1 {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 22px 53px 176.1px;
+  gap: 56px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 725px) {
+  .main-container {
+    flex-wrap: wrap;
+  }
+  .register-1 {
+    gap: 28px;
+    padding-left: 26px;
+    padding-right: 26px;
+    box-sizing: border-box;
+  }
+}

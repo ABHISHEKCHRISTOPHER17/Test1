@@ -1,0 +1,62 @@
+.enter-employee-id {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.field-labels-row {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 7.3px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.field-rows,
+.placeholder-row {
+  align-self: stretch;
+  display: flex;
+  flex-shrink: 0;
+  font-size: 18.2px;
+  font-family: Urbanist;
+}
+.placeholder-row {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: rgba(255, 255, 255, 0.75);
+  height: 54px;
+  border-radius: 25.53px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px 21.9px;
+  box-sizing: border-box;
+  color: #707070;
+  min-width: 250px;
+}
+.placeholder-row.error {
+  border: 2px solid red; /* Add a red border to indicate error */
+}
+.placeholder-row.error::placeholder {
+  color: red;/* Add a red border to indicate error */
+}
+
+.error-message {
+  color: red; /* Set the color of the error message to red */
+  font-size: 14px; /* Adjust the font size of the error message */
+  margin-top: 4px; /* Add some space between the input field and the error message */
+}
+.field-rows {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 14.6px;
+  max-width: 100%;
+  text-align: left;
+  color: #000;
+}

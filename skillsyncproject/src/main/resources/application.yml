@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: user-details-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/skillsync
+    username: root
+    password: Devilmaycreed@10
+    ssl: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+  servlet:
+    multipart:
+      max-file-size: 2MB
+      max-request-size: 2MB
+
+server:
+  port: 1111
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://172.18.4.217:8761/eureka

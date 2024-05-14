@@ -1,0 +1,96 @@
+.check-circle-fill0-wght400-gra-icon {
+  width: 72.9px;
+  height: 72.9px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.log-in-to,
+.your-account-has {
+  position: relative;
+  font-weight: 600;
+}
+.log-in-to {
+  font-size: 21.9px;
+  font-weight: 500;
+  color: #404e63;
+  text-align: left;
+}
+.your-account-has-been-created-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2.2px;
+  box-sizing: border-box;
+  gap: 5px 11.7px;
+  min-height: 75px;
+}
+.instruction-panel {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.login-button-area {
+  width: 447.1px;
+  height: 54px;
+  max-width: 100%;
+}
+.login-options,
+.login-prompt,
+.status-icon {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.login-prompt {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 21.9px;
+}
+.login-options,
+.status-icon {
+  justify-content: center;
+}
+.status-icon {
+  width: 528.9px;
+  flex-direction: column;
+  gap: 21.9px;
+}
+.login-options {
+  width: 1030px;
+  box-shadow: -10.9px -10.9px 21.88px #f0f2ff, 10.9px 10.9px 21.88px #afcdff;
+  border-radius: 21.88px;
+  background: linear-gradient(100.07deg, #e2e7ff, #d4e4ff);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 94.2px 20px 94.1px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 36.5px;
+  color: #000;
+  font-family: Urbanist;
+}
+@media screen and (max-width: 750px) {
+  .your-account-has {
+    font-size: 29px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .your-account-has {
+    font-size: 22px;
+  }
+  .log-in-to {
+    font-size: 18px;
+  }
+  .login-options {
+    padding-top: 61px;
+    padding-bottom: 61px;
+    box-sizing: border-box;
+  }
+}

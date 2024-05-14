@@ -1,0 +1,217 @@
+.icon {
+  height: 422.3px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  min-width: 411px;
+}
+.get-started-with {
+  position: relative;
+  letter-spacing: -0.02px;
+}
+.get-started-with-skillmatrix-t-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.experience-the-power {
+  flex: 1;
+  position: relative;
+  line-height: 29.95px;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.experience-the-power-of-skillm-wrapper,
+.frame-parent5 {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.experience-the-power-of-skillm-wrapper {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 22.5px;
+}
+.frame-parent5 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0.1px;
+  box-sizing: border-box;
+  gap: 15px;
+}
+/* .button6 {
+  position: relative;
+  font-size: 16.5px;
+  letter-spacing: -0.01px;
+  font-weight: 600;
+  font-family: Urbanist;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 44px;
+} */
+.arrow-down-icon4 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  display: none;
+}
+.inside4 {
+  cursor: pointer;
+  border: 0;
+  padding: 12.5px 49px 12.4px;
+  background-color: transparent;
+  border-radius: 22.46px;
+  background: linear-gradient(90deg, #1456ff, #5013ff);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 7.5px;
+  white-space: nowrap;
+  transition: transform 0.3s ease;
+
+  position: relative;
+  font-size: 16.5px;
+  letter-spacing: -0.01px;
+  font-weight: 600;
+  font-family: Urbanist;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 44px;
+}
+.inside4:hover {
+  transform: scale(1.08); /* Enlarge button on hover */
+}
+/* .button7 {
+  position: relative;
+  font-size: 16.5px;
+  font-weight: 600;
+  font-family: Urbanist;
+  color: #1b1b1b;
+  text-align: left;
+  display: inline-block;
+  min-width: 60px;
+} */
+.arrow-down-icon5 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  display: none;
+}
+.inside5 {
+  cursor: pointer;
+  border: 2.2px solid #1456ff;
+  padding: 10px 39px;
+  background-color: transparent;
+  flex: 1;
+  border-radius: 22.46px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 7.5px;
+  transition: transform 0.3s ease; 
+
+  position: relative;
+  font-size: 16.5px;
+  font-weight: 600;
+  font-family: Urbanist;
+  color: #1b1b1b;
+  text-align: left;
+  display: inline-block;
+  min-width: 60px;
+}
+.inside5:hover {
+  background-color: rgba(59, 125, 255, 0.09);
+  border: 2.2px solid #3b7dff;
+  box-sizing: border-box;
+  transform: scale(1.08); 
+}
+.frame-parent4,
+.inside-parent {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 22.5px;
+}
+.inside-parent {
+  width: 307px;
+  display: flex;
+  flex-direction: row;
+}
+.frame-parent4 {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 0 0.1px;
+  min-width: 416px;
+}
+.cta,
+.cta-wrapper,
+.frame-parent4,
+.group {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.group {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  row-gap: 20px;
+}
+.cta,
+.cta-wrapper {
+  align-items: flex-start;
+}
+.cta {
+  flex: 1; 
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0.8px 0 0;
+  /* z-index: 1; */
+}
+.cta-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 38.6px 35.7px 40px;
+  text-align: left;
+  font-size: 30px;
+  color: #1b1b1b;
+  font-family: Urbanist;
+}
+
+@media screen and (max-width: 750px) {
+  .icon {
+    min-width: 100%;
+  }
+  .get-started-with {
+    font-size: 24px;
+  }
+  .frame-parent4 {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .get-started-with {
+    font-size: 18px;
+  }
+  .experience-the-power {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

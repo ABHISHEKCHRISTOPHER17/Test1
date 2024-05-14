@@ -1,0 +1,241 @@
+
+.reset-password2 {
+  font-size: 44px;
+  font-weight: 600;
+  position: relative;
+  margin-bottom: 0px;
+}
+.confirm-password-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.enter-password-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.choose-a-strong1 {
+  align-self: stretch;
+  position: relative;
+  font-size: 20.4px;
+  font-weight: 500;
+  color: #494949;
+}
+.input-field-labels,
+.input-fields-Pass {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.input-field-labels {
+  align-self: stretch;
+  gap: 14.6px;
+}
+.input-fields-Pass {
+  width: 306px;
+  padding: 30.6px 0 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.frame-child {
+  width: 0.7px;
+  flex: 1;
+  position: relative;
+  border-right: 0.7px solid #a0aece;
+  box-sizing: border-box;
+}
+.password-instruction-inner {
+  height: 223.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 55.5px 0 0;
+  box-sizing: border-box;
+}
+.enter-password1 {
+  position: relative;
+  font-size: 18.2px;
+  font-weight: 500;
+  font-family: Urbanist;
+  color: #000;
+  text-align: center;
+  display: inline-block;
+  min-width: 124px;
+}
+.field-title-labels {
+  flex-direction: row;
+  padding: 0 7px 0 7.3px;
+}
+.field-title-labels,
+.field-title-labels1,
+.input-field-titles,
+.input-field-titles-child {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.input-field-titles-child {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: rgba(255, 255, 255, 0.75);
+  height: 54px;
+  border-radius: 25.53px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 16px 21.9px;
+  box-sizing: border-box;
+  font-family: Urbanist;
+  font-size: 18.2px;
+  color: #707070;
+  min-width: 250px;
+}
+.input-field-titles {
+  flex-direction: column;
+  gap: 14.6px;
+}
+.confirm-password1 {
+  position: relative;
+  font-size: 18.2px;
+  font-weight: 500;
+  font-family: Urbanist;
+  color: #000;
+  text-align: center;
+}
+.confirm-password-container {
+  flex-direction: row;
+  text-align: left;
+  padding: 0 7px 0 7.3px;
+}
+.confirm-password-container,
+.input-field-titles1,
+.password-input-fields {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 14.6px;
+}
+.input-field-titles-item {
+  width: 447px;
+  border: 0;
+  outline: 0;
+  background-color: rgba(255, 255, 255, 0.75);
+  height: 54px;
+  border-radius: 25.53px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 16px 21.9px;
+  box-sizing: border-box;
+  font-family: Urbanist;
+  font-size: 18.2px;
+  color: #707070;
+  min-width: 250px;
+}
+.input-field-titles1,
+.password-input-fields {
+  flex-direction: column;
+  padding: 0 0 0.1px;
+  gap: 14.6px;
+}
+.password-input-fields {
+  align-items: flex-start;
+  padding: 0;
+  gap: 21.9px;
+}
+.button4 {
+  position: relative;
+  font-size: 18.2px;
+  font-weight: 600;
+  font-family: Urbanist;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 45px;
+}
+.log-in1 {
+  cursor: pointer;
+  border: 0;
+  padding: 16px 20px;
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: 25.53px;
+  background: linear-gradient(90deg, #5013ff, #1456ff);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.password-input-fields-parent,
+.password-instruction {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center;
+  max-width: 100%;
+}
+.password-input-fields-parent {
+  margin: 0;
+  width: 447.2px;
+  flex-direction: column;
+  align-items: center;
+  gap: 21.9px;
+}
+.password-instruction {
+  box-shadow: -10.9px -10.9px 21.88px #f0f2ff, 10.9px 10.9px 21.88px #afcdff;
+  border-radius: 21.88px;
+  background: linear-gradient(100.07deg, #e2e7ff, #d4e4ff);
+  overflow: hidden;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 77.6px 79px 77.5px 78.6px;
+  box-sizing: border-box;
+  gap: 59.4px;
+  z-index: 1;
+  text-align: left;
+  font-size: 43.8px;
+  color: #1e1e1e;
+  font-family: Urbanist;
+}
+@media screen and (max-width: 1025px) {
+  .password-instruction {
+    padding-left: 39px;
+    padding-right: 39px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 975px) {
+  .reset-password2 {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 725px) {
+  .password-instruction {
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .reset-password2 {
+    font-size: 26px;
+  }
+  .choose-a-strong1 {
+    font-size: 16px;
+  }
+  .password-instruction {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+  }
+}

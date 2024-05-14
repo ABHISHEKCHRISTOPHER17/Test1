@@ -1,0 +1,98 @@
+.login-1-background-icon {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.torry-harris-integration-solut-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.logo {
+  height: 97.9px;
+  width: 229.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 7.9px;
+  box-sizing: border-box;
+}
+.skillmatrix-2-icon {
+  align-self: stretch;
+  height: 26.9px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.skill-matrix-area {
+  width: 184.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 35.5px 0 0;
+  box-sizing: border-box;
+}
+.content-structure {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  z-index: 1;
+}
+.comp-prof-1,
+.form-containerofCpProfile {
+  display: flex;
+  box-sizing: border-box;
+}
+.form-containerofCpProfile {
+  flex-direction: column;
+}
+.form-containerofCpProfile {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding: 0 36px 0 37px; */
+  max-width: 100%;
+}
+.comp-prof-1 {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 22px 54px 66px 53px;
+  gap: 17.1px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .content-structure {
+    flex-wrap: wrap;
+  }
+  .comp-prof-1 {
+    padding-left: 26px;
+    padding-right: 27px;
+    box-sizing: border-box;
+  }
+}

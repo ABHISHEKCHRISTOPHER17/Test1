@@ -1,0 +1,166 @@
+.error-fill0-wght400-grad0-opsz-icon {
+  width: 72.9px;
+  height: 72.9px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.oops-there-was {
+  width: 446px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.check-your-employee {
+  position: relative;
+  font-size: 21.9px;
+  font-weight: 500;
+  color: #404e63;
+  text-align: left;
+}
+.oops-there-was-an-error-parent,
+.text2 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.oops-there-was-an-error-parent {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 0.3px 0 0.4px;
+  box-sizing: border-box;
+  gap: 5px 11.7px;
+  min-height: 75px;
+}
+.text2 {
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+/* .button3ofLogin {
+  position: relative;
+  font-size: 18.2px;
+  font-weight: 600;
+  font-family: Urbanist;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 80px;
+} */
+.button2ofLoginError {
+  align-self: stretch;
+  display: flex;
+}
+/* .log-in-button2 {
+  border-radius: 25.53px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15.9px 20px 16.1px;
+  white-space: nowrap;
+} */
+.button2ofLoginError {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  justify-content: flex-start;
+  border-radius: 30px;
+  background: linear-gradient(90deg, #5013ff, #1456ff);
+  text-align: center;
+  border-radius: 25.53px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15.9px 20px 16.1px;
+  white-space: nowrap;
+  position: relative;
+  font-size: 18.2px;
+  font-weight: 600;
+  font-family: Urbanist;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  min-width: 80px;
+}
+.button2ofLoginError:hover{
+  scale: 1.05;
+}
+.are-you-a-new-user1 {
+  white-space: pre-wrap;
+}
+.register3 {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.are-you-a-container1 {
+  position: relative;
+}
+.register2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: 16px;
+}
+.contents,
+.contents-wrapper,
+.textcont {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.textcont {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 21.9px;
+}
+.contents,
+.contents-wrapper {
+  justify-content: center;
+}
+.contents {
+  width: 447.1px;
+  flex-direction: column;
+  gap: 21.9px;
+}
+.contents-wrapper {
+  width: 1029.9px;
+  box-shadow: -10.9px -10.9px 30px #f0f2ff, 10.9px 10.9px 30px #afcdff;
+  border-radius: 21.88px;
+  background: linear-gradient(100.07deg, #e2e7ff, #d4e4ff);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 73.7px 20px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 36.5px;
+  color: #000;
+  font-family: Urbanist;
+}
+@media screen and (max-width: 750px) {
+  .oops-there-was {
+    font-size: 29px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .oops-there-was {
+    font-size: 22px;
+  }
+  .check-your-employee {
+    font-size: 18px;
+  }
+  .contents-wrapper {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    box-sizing: border-box;
+  }
+}

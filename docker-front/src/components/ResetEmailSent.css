@@ -1,0 +1,138 @@
+.icon-shape {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.mail-fill0-wght400-grad0-opsz2 {
+  width: 72.5px;
+  height: 73.4px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12.4px 5.9px 12.4px 5.8px;
+  box-sizing: border-box;
+}
+.weve-sent-you {
+  width: 446.4px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.a-reset-password {
+  position: relative;
+  font-size: 21.9px;
+  font-weight: 500;
+  color: #494949;
+  text-align: center;
+}
+.instruction-box,
+.weve-sent-you-an-email-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+.weve-sent-you-an-email-parent {
+  justify-content: center;
+  padding: 0 3px;
+  box-sizing: border-box;
+  gap: 7.3px;
+}
+.instruction-box {
+  justify-content: flex-start;
+}
+.button1ofReset {
+  position: relative;
+  font-size: 18.2px;
+  font-weight: 600;
+  font-family: Urbanist;
+  color: transparent;
+  text-align: left;
+  display: inline-block;
+  min-width: 68px;
+}
+.log-in-button1 {
+  align-self: stretch;
+  border-radius: 25.53px;
+  background: linear-gradient(90deg, #5013ff, #1456ff);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15.9px 20px 16.1px;
+  white-space: nowrap;
+}
+.action-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 447.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.info-area,
+.input-fields1ofReset,
+.instruction-panelofReset {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.instruction-panelofReset {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 29.2px;
+}
+.info-area,
+.input-fields1ofReset {
+  justify-content: center;
+}
+.input-fields1ofReset {
+  width: 568.3px;
+  flex-direction: column;
+  gap: 7.3px;
+}
+.info-area {
+  width: 1030px;
+  box-shadow: -10.9px -10.9px 21.88px #f0f2ff, 10.9px 10.9px 21.88px #afcdff;
+  border-radius: 21.88px;
+  background: linear-gradient(100.07deg, #e2e7ff, #d4e4ff);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 96.5px 20px 96.3px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 36.5px;
+  color: #000;
+  font-family: Urbanist;
+}
+@media screen and (max-width: 750px) {
+  .weve-sent-you {
+    font-size: 29px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .weve-sent-you {
+    font-size: 22px;
+  }
+  .a-reset-password {
+    font-size: 18px;
+  }
+  .info-area {
+    padding-top: 63px;
+    padding-bottom: 63px;
+    box-sizing: border-box;
+  }
+}
